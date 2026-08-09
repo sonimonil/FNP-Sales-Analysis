@@ -40,34 +40,16 @@ That reframes the business. Inventory, staffing and delivery capacity are a *cal
 
 **Buyer gender is not a useful segmentation axis here** — revenue splits 51 / 49 between male and female buyers.
 
----
 
-## Project summary (PDF)
-
-A four-page written summary of the project — objective, method, findings, data-quality notes and deliverables.
-
-**[Read the summary →](docs/FNP_Sales_Analysis_Summary.pdf)**
-
-[![Project summary](images/summary-preview.png)](docs/FNP_Sales_Analysis_Summary.pdf)
-
----
 
 ## Two dashboards
 
 ### Excel
 
-[`dashboard/FNP_Sales_Dashboard.xlsx`](dashboard/FNP_Sales_Dashboard.xlsx)
 
 Two dropdowns (Occasion, Category) drive 11 charts, 6 KPI tiles, the ranking tables and the matrix. 16,979 formulas, zero hardcoded results — edit a price in the `Products` sheet and the whole dashboard moves.
 
-![Excel dashboard](images/excel-hero.png)
 
-<details>
-<summary>Full Excel dashboard</summary>
-
-![Excel dashboard, full](images/excel-dashboard.png)
-
-</details>
 
 | Sheet | Purpose |
 |---|---|
@@ -94,7 +76,7 @@ This replaces PivotTable slicers with plain formulas, so the workbook needs no P
 
 ### Web
 
-[`dashboard/FNP_Sales_Dashboard.html`](dashboard/FNP_Sales_Dashboard.html) — one file, no build step, no dependencies. Open it in any browser.
+one file, no build step, no dependencies. Open it in any browser.
 
 17 views, live filtering, hover detail on every chart, and a light/dark toggle. Charts are hand-written SVG; the dataset is embedded as compact JSON (~35 KB) and every aggregation runs client-side.
 
@@ -131,7 +113,6 @@ Grouping products by name inflates "Quia Gift" to ₹1,14,476 and pushes two gen
 
 There are no missing values and no duplicate `Order_ID`s.
 
-Full field-by-field reference: [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.md)
 
 ---
 
