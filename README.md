@@ -4,7 +4,6 @@ Sales analysis of **Ferns N Petals**, an Indian gifting retailer — 1,000 order
 
 **The finding: four festival months carry 68% of the year's revenue.**
 
-![Web dashboard](images/web-hero.png)
 
 ---
 
@@ -101,12 +100,7 @@ This replaces PivotTable slicers with plain formulas, so the workbook needs no P
 
 > Serve it on GitHub Pages by enabling Pages on the `/docs` folder — `docs/index.html` is a copy.
 
-<details>
-<summary>Full web dashboard</summary>
 
-![Web dashboard, full](images/web-dashboard.png)
-
-</details>
 
 ---
 
